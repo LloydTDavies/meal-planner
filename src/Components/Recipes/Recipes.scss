@@ -1,0 +1,27 @@
+.recipe-list {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  justify-items: center;
+  row-gap: 30px;
+}
+
+.recipe-card {
+  width: 400px;
+  padding: 15px;
+  border: 1px solid white;
+  border-radius: 25px;
+
+  &__header {
+    margin: 0;
+    margin-block-end: 10px;
+  }
+
+  &__img {
+    width: 250px;
+  }
+
+  &__ingredients {
+    padding: 0;
+    margin: 0;
+  }
+}
